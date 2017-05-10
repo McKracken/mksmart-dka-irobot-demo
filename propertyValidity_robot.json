@@ -26,11 +26,24 @@
 		}
 	},
 	"rooms":{
+		"MediaLab":
+		{
+			"name":"Media Lab", 
+			"left": "1020px", 
+			"top": "580px",
+			"width": "150px",
+			"hasHumidity":300,
+			"hasTemperature":300,
+			"hasPeopleCount":3600,
+			"hasWiFiSignal":340,
+			"validity":false,
+			"backcolor": "#88f49a"
+		},
 	    "Activity0":
 		{
 			"name":"Activity 0", 
 			"left": "850px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -43,7 +56,7 @@
 		{
 			"name":"Activity 1", 
 			"left": "680px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -56,7 +69,7 @@
 		{
 			"name":"Activity 2", 
 			"left": "510px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -69,7 +82,7 @@
 		{
 			"name":"Activity 3", 
 			"left": "340px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -82,7 +95,7 @@
 		{
 			"name":"Activity 4", 
 			"left": "170px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -95,7 +108,7 @@
 		{
 			"name":"Activity 5", 
 			"left": "0px", 
-			"top": "560px",
+			"top": "580px",
 			"width": "150px",
 			"hasHumidity":300,
 			"hasTemperature":300,
@@ -198,10 +211,10 @@
 	},
 	"wifiname":"eduroam",
 	"map":{
-		"img":"./docs/north-south-wings+podium_merge_cut_transparent_colors_60.png",
-		"xoffset":885,
-		"yoffset":303,
-		"scale":0.083,
+		"img":"./docs/north-south-wings+podium_merge_cut_transparent_colors_50.png",
+		"xoffset":891,
+		"yoffset":316,
+		"scale":0.1,
 		"invertaxes":false,
 		"xmultiplier":1,
 		"ymultiplier":-1
@@ -213,7 +226,7 @@
 		},
 		"img":"./docs/hires-robot-blue_squared.png"
 	},
-	"kbserverip":"http://localhost:8080/",
+	"kbserverip":"http://137.108.120.226:8080/",
 	"queries": [
 		{
 		"name":"Which is the warmest room between the Podium and the Markbucks?",

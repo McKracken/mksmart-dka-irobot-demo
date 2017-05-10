@@ -174,7 +174,7 @@ function dkaController($scope,$interval,$sce,$http,$timeout){
 		$interval(placeRobot, 1000);
 		$scope.getPlan();
 		updateRooms();
-		//$scope.startRandomBehaviour();
+		$scope.startRandomBehaviour();
 		$interval(updateRoomCycle, 2000);
 	});
 	

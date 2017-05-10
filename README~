@@ -1,0 +1,20 @@
+HOW TO SET UP THE MAP PARAMETERS FOR THE DEMO
+
+PRELIMINARY ASSUMPTION: here we assume that a simulated or real robot is working, and everything is correctly aligned (e.g. the robot is correctly localised, ...), and move_base is correctly running with a map, which we'll call "the original map" from now on.
+
+First of all, you need to understand if the map used in the application has been cropped and/or resized with respect ot the original map. You will need to have access to both the image file of the original map and the related .yaml file loaded by move_base to get some crucial infos.
+
+Example of map parameters in the JSON configuration file loaded at the start of the demo web application
+
+"map":{
+	"img":"./docs/north-south-wings+podium_merge_cut_resized.png",
+	"xoffset":548,
+	"yoffset":271,
+	"scale":0.167,
+	"invertaxes":false,
+	"xmultiplier":1,
+	"ymultiplier":-1
+}
+
+- img: the path specifing where the map used in the web application is located
+- xoffset and yoffset: these are the

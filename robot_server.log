@@ -1,0 +1,1219 @@
+Using localhost as default ip for KB server
+Using 8080 as default port for KB server
+Using eduroam as default wifi name
+Initialising node
+Initialising ActionClient
+Initialising Feedback subscriber
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - sniff_wifi on interface wlan0
+
+Going to -24.0, 10.3, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -59
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 7.14, u'x': -73.5, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-73.5 Y=7.14
+2 - read_temperature
+
+Going to -73.5, 7.14, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 19.68
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 22.5, u'x': -80.1, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-80.1 Y=22.5
+2 - sniff_wifi on interface wlan0
+
+Going to -80.1, 22.5, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.6, u'x': -32.4, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-32.4 Y=10.6
+2 - read_temperature
+
+Going to -32.4, 10.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.53
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 22.5, u'x': -80.1, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-80.1 Y=22.5
+2 - count_people
+
+Going to -80.1, 22.5, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 2
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.6, u'x': -32.4, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-32.4 Y=10.6
+2 - count_people
+
+Going to -32.4, 10.6, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 3
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - count_people
+
+Going to -24.0, 10.3, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 4
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 19.8, u'x': -38.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-38.2 Y=19.8
+2 - count_people
+
+Going to -38.2, 19.8, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 7
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 7.14, u'x': -73.5, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-73.5 Y=7.14
+2 - read_humidity
+
+Going to -73.5, 7.14, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 56.44
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - sniff_wifi on interface wlan0
+
+Going to -24.0, 10.3, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_humidity
+
+Going to -16.2, 10.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 44.79
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_humidity
+
+Going to -8.66, 17.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 48.33
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.2, u'x': -1.71, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-1.71 Y=18.2
+2 - sniff_wifi on interface wlan0
+
+Going to -1.71, 18.2, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_temperature
+
+Going to -22.3, 20.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 20.19
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - sniff_wifi on interface wlan0
+
+Going to -31.0, 18.8, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'name': u'read_humidity'}]
+
+PLAN:
+1 - read_humidity
+
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 53.11
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 11.2, u'x': -49.9, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-49.9 Y=11.2
+2 - read_humidity
+
+Going to -49.9, 11.2, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 43.64
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 19.8, u'x': -38.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-38.2 Y=19.8
+2 - read_temperature
+
+Going to -38.2, 19.8, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 22.55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_temperature
+
+Going to -16.2, 10.5, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.17
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 8.54, u'x': -7.93, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-7.93 Y=8.54
+2 - read_temperature
+
+Going to -7.93, 8.54, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 19.99
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 0.724, u'x': 7.31, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=7.31 Y=0.724
+2 - read_temperature
+
+Going to 7.31, 0.724, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 20.15
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - read_temperature
+
+Going to -31.0, 18.8, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.95
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_humidity
+
+Going to -16.2, 10.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 58.53
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - count_people
+
+Going to -31.0, 18.8, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 0
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 0.724, u'x': 7.31, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=7.31 Y=0.724
+2 - sniff_wifi on interface wlan0
+
+Going to 7.31, 0.724, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 11.2, u'x': -49.9, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-49.9 Y=11.2
+2 - sniff_wifi on interface wlan0
+
+Going to -49.9, 11.2, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - read_temperature
+
+Going to -24.0, 10.3, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 22.05
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 19.8, u'x': -38.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-38.2 Y=19.8
+2 - read_humidity
+
+Going to -38.2, 19.8, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 52.52
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_temperature
+
+Going to -22.3, 20.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.53
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 0.724, u'x': 7.31, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=7.31 Y=0.724
+2 - read_humidity
+
+Going to 7.31, 0.724, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 59.81
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 8.54, u'x': -7.93, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-7.93 Y=8.54
+2 - read_humidity
+
+Going to -7.93, 8.54, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 41.75
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'name': u'count_people'}]
+
+PLAN:
+1 - count_people
+
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 3
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - read_humidity
+
+Going to -31.0, 18.8, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 52.24
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_humidity
+
+Going to -8.66, 17.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 47.5
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_humidity
+
+Going to -22.3, 20.6, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 57.65
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.6, u'x': -32.4, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-32.4 Y=10.6
+2 - sniff_wifi on interface wlan0
+
+Going to -32.4, 10.6, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 0.724, u'x': 7.31, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=7.31 Y=0.724
+2 - read_temperature
+
+Going to 7.31, 0.724, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 22.91
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.6, u'x': -32.4, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-32.4 Y=10.6
+2 - read_temperature
+
+Going to -32.4, 10.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_temperature
+
+Going to -16.2, 10.5, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 22.98
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_temperature
+
+Going to -8.66, 17.5, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.24
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - sniff_wifi on interface wlan0
+
+Going to -22.3, 20.6, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -56
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - read_humidity
+
+Going to -41.2, 10.7, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 47.51
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - read_humidity
+
+Going to -24.0, 10.3, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 44.35
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - read_temperature
+
+Going to -41.2, 10.7, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.22
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 8.54, u'x': -7.93, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-7.93 Y=8.54
+2 - sniff_wifi on interface wlan0
+
+Going to -7.93, 8.54, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -54
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_temperature
+
+Going to -22.3, 20.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 22.07
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_humidity
+
+Going to -8.66, 17.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 43.76
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - count_people
+
+Going to -22.3, 20.6, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 0
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 19.8, u'x': -38.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-38.2 Y=19.8
+2 - sniff_wifi on interface wlan0
+
+Going to -38.2, 19.8, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -56
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - read_humidity
+
+Going to -41.2, 10.7, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 50.18
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - sniff_wifi on interface wlan0
+
+Going to -31.0, 18.8, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.6, u'x': -32.4, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-32.4 Y=10.6
+2 - count_people
+
+Going to -32.4, 10.6, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 1
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - sniff_wifi on interface wlan0
+
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -55
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'name': u'read_temperature'}]
+
+PLAN:
+1 - read_temperature
+
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 19.61
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_humidity
+
+Going to -8.66, 17.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 57.25
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_humidity
+
+Going to -16.2, 10.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 48.34
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'name': u'read_temperature'}]
+
+PLAN:
+1 - read_temperature
+
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.24
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'index': 0, u'name': u'count_people'}]
+
+PLAN:
+1 - count_people
+
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 1
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.2, u'x': -1.71, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-1.71 Y=18.2
+2 - read_temperature
+
+Going to -1.71, 18.2, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.34
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_temperature
+
+Going to -22.3, 20.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.95
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - read_temperature
+
+Going to -41.2, 10.7, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.16
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 11.2, u'x': -49.9, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-49.9 Y=11.2
+2 - read_humidity
+
+Going to -49.9, 11.2, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 52.69
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - read_humidity
+
+Going to -41.2, 10.7, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 51.82
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_humidity
+
+Going to -22.3, 20.6, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 42.88
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 7.14, u'x': -73.5, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-73.5 Y=7.14
+2 - count_people
+
+Going to -73.5, 7.14, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 2
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 0.724, u'x': 7.31, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=7.31 Y=0.724
+2 - read_temperature
+
+Going to 7.31, 0.724, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 18.99
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - read_temperature
+
+Going to -16.2, 10.5, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 21.7
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 22.5, u'x': -80.1, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-80.1 Y=22.5
+2 - count_people
+
+Going to -80.1, 22.5, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 5
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 18.8, u'x': -31.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-31.0 Y=18.8
+2 - sniff_wifi on interface wlan0
+
+Going to -31.0, 18.8, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -62
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - sniff_wifi on interface wlan0
+
+Going to -24.0, 10.3, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -58
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.5, u'x': -16.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-16.2 Y=10.5
+2 - sniff_wifi on interface wlan0
+
+Going to -16.2, 10.5, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -60
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.3, u'x': -24.0, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'count_people'}]
+
+PLAN:
+1 - goto X=-24.0 Y=10.3
+2 - count_people
+
+Going to -24.0, 10.3, 0.0
+Counting people
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating count_people with value 0
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 17.5, u'x': -8.66, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-8.66 Y=17.5
+2 - read_temperature
+
+Going to -8.66, 17.5, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 20.84
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 10.7, u'x': -41.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-41.2 Y=10.7
+2 - sniff_wifi on interface wlan0
+
+Going to -41.2, 10.7, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -59
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 22.5, u'x': -80.1, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_humidity'}]
+
+PLAN:
+1 - goto X=-80.1 Y=22.5
+2 - read_humidity
+
+Going to -80.1, 22.5, 0.0
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating humidity with value 58.05
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 19.8, u'x': -38.2, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-38.2 Y=19.8
+2 - read_temperature
+
+Going to -38.2, 19.8, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 20.16
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 11.2, u'x': -49.9, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-49.9 Y=11.2
+2 - sniff_wifi on interface wlan0
+
+Going to -49.9, 11.2, 0.0
+Reading wifi signal on wlan0...
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating wifi with value -61
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 20.6, u'x': -22.3, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'name': u'read_temperature'}]
+
+PLAN:
+1 - goto X=-22.3 Y=20.6
+2 - read_temperature
+
+Going to -22.3, 20.6, 0.0
+Reading Temperature
+Update, opening connection with http://127.0.0.1:8080/bot/write
+Updating temperature with value 19.9
+Update, close connection.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+Doing nothing.
+PLAN STACK: [{u'y': 8.54, u'x': -7.93, u'index': 0, u't': 0.0, u'name': u'goto'}, {u'index': 1, u'iface': u'wlan0', u'name': u'sniff_wifi'}]
+
+PLAN:
+1 - goto X=-7.93 Y=8.54
+2 - sniff_wifi on interface wlan0
+
+Going to -7.93, 8.54, 0.0
+Readin

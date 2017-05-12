@@ -25,7 +25,7 @@ cd /home/ilaria/workspace/dka-robo/server
 nohup ./run.sh -l KB_partial_kmi_simulated.nq > server.log &
 echo "dka-server started"
 
-sleep 2
+sleep 10
 
 # set bot
 ./dka.sh setbot http://localhost:5000
